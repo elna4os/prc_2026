@@ -1,0 +1,20 @@
+[project]
+name = "prc-2026"
+version = "0.1.0"
+description = "Predict the taxi-out time of flights from 10 major European airports"
+authors = [
+    {name = "alex"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "seaborn (>=0.13.2,<0.14.0)",
+    "pandas (>=3.0.6,<4.0.0)",
+    "catboost (>=1.2.10,<2.0.0)",
+    "optuna (>=5.0.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
